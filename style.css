@@ -1,0 +1,244 @@
+:root{
+    --primary:#2e2ee9;
+    --secendary:#d81f86;    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+ font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+
+
+#hero div p{
+    background: linear-gradient(to right,var(--primary),var(--secendary));
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0 0.4rem;
+    font-size: 0.8rem;
+}
+
+#resume h1{
+    font-size: 4rem;
+    background: -webkit-linear-gradient(var(--primary),var(--secendary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+#hero h1{
+    font-size: 4rem;
+    background: -webkit-linear-gradient(var(--primary),var(--secendary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+#about h1{
+    font-size: 4rem;
+    background: -webkit-linear-gradient(var(--primary),var(--secendary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+
+#hero div img{
+    width:40rem;
+    background: linear-gradient(to right,var(--primary),var(--secendary));
+    border-radius: 0.9rem;
+    top: -20rem;
+}
+
+#hero .btn2 button{
+    color: black;
+
+}
+
+#about{
+    height: 80vh;
+    background-color: #ebe8e838;
+}
+
+#about p{
+    width: 70vw;
+}
+
+.icons{
+    font-size: 2rem;
+    background: -webkit-linear-gradient(var(--primary),var(--secendary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#resume{
+    display: flex;
+    flex-direction: column;
+    padding: 0 17rem;
+    background-color: #ebe8e838;
+}
+
+#resume h3{
+    font-size: 3.5rem;
+    background: -webkit-linear-gradient(var(--primary),var(--secendary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.exp-res h4{
+    color: blue;
+    font-size: 2rem;
+}
+
+.exp-res button{
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.exp h5{
+    color: blue;
+}
+
+.exp{
+    border: none;
+    background-color: white;
+    border-radius: 0.8rem;
+    box-shadow: 0.2rem 0.2rem rgba(148, 146, 146, 0.288);
+}
+
+.exp1{
+    background-color: #ebe8e838;
+    border: none;
+    border-radius: 0.8rem;
+}
+
+.edu-res h4{
+    color: rgb(225 30 128);
+    font-size: 2rem;
+}
+
+.edu h5{
+    color: rgb(225 30 128);
+}
+
+.edu{
+    border: none;
+    background-color: white;
+    border-radius: 0.8rem;
+    margin: 1.5rem;
+    box-shadow: 0.2rem 0.2rem rgba(148, 146, 146, 0.288);
+
+}
+
+.edu1{
+    background-color: #ebe8e838;
+    border: none;
+    border-radius: 0.8rem;
+}
+
+.skills h2{
+    font-size: 2.4rem;
+    background: -webkit-linear-gradient(var(--primary),var(--secendary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.skills{
+    background-color: white;
+    border: none;
+    box-shadow: 0.2rem 0.2rem rgba(148, 146, 146, 0.288);
+
+}
+
+.sk p{
+    background-color: #ebe8e838;
+    padding: 1rem 1.8rem;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#project h1{
+    font-size: 4rem;
+    background: -webkit-linear-gradient(var(--primary),var(--secendary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+#project.container-fluid{
+    padding: 0 17rem;
+    background-color: #ebe8e838;
+}
+
+#project .left{
+    padding: 5rem 3rem;
+}
+
+#project .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #343a40;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+#project .card{
+    border: none;
+    border-radius: 0.8rem;
+}
+
+.bottomp{
+    background: linear-gradient(to right,var(--primary),var(--secendary));
+    padding: 3rem 0;
+}
+
+.bottomp h1{
+    color: white;
+    font-weight: 600;
+    font-size: 4rem;
+    padding: 3rem 0;
+}
+
+.btn{
+    border: solid;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    padding: 0.7rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+    border-width: 1px;
+}
+
+#contact{
+    padding: 2rem 10rem;
+    background-color: #ebe8e838; 
+}
+
+form input,textarea{
+    padding: 0.8rem 5rem;
+    border-radius: 0.8rem;
+    border: solid;
+    border-width: 0.01px;
+}
+
+#contact h1{
+    font-weight: 600;
+}
+
+#contact p{
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.sub{
+    background-color: #3b6db8;
+    border: none;
+    color: white;
+}
